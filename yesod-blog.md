@@ -6,7 +6,7 @@ Three years ago, I met fellow Haskeller Brian Hurt while working with Obsidian S
 ChatWisely is a member-supported mini-blogging social network currently in open beta. We want to elevate discourse and show bullies the door by providing a platform to debate safely.We want a place where people connect and the conversation continues. Here’s how.
 
 How we're doing it
-<p style="text-align: center;">Safety First</p>
+<p align=center>Safety First</p>
 We have several mechanisms to filter out people looking for a fight or to harm others. First and foremost will be the monthly subscription fee of one dollar. We think that will discourage a large portion of toxic people. Another is a sharable mute list that we believe will help mitigate most of the rest. And finally, in the event of a serious Terms of Service violation, we ban payment methods rather than just accounts. 
 
 Mini-Blogging
