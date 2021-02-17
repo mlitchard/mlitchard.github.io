@@ -18,13 +18,13 @@ One day this pandemic will be over and we’ll be there to meet that day. At tha
 <h2 align=center>How It’s Built</h2>
 Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell’s type system reduces errors and cognitive load. GHC is our pair programming partner that tightens the delivery cycle and lets us learn how to build ChatWisely while we’re building it. Refactoring is a breeze, and unit testing is constrained to the I/O edges of the system, which means we spend less time on that and more time building the product. Here’s the principal tools we rely on to get the job done.  
 <br/> <br/>
-<h4> Ghcjs </h4> - The fact is we all hate javascript. The problem is, we can’t build web apps without it. Ghcjs lets us deal with the realities of building a product that uses a web browser for a client. The FFI lets us wrap our hand-written javascript in Haskell which helps to keep that part of the codebase pretty small.. We especially love what is built on top of that, Reflex-Dom.
+<h4> Ghcjs </h4> The fact is we all hate javascript. The problem is, we can’t build web apps without it. Ghcjs lets us deal with the realities of building a product that uses a web browser for a client. The FFI lets us wrap our hand-written javascript in Haskell which helps to keep that part of the codebase pretty small.. We especially love what is built on top of that, Reflex-Dom.
   
-Reflex-Dom  - Reflex helps us build a system that needs to adapt to changes in data, requirements and platform. We’re learning how to build ChatWisely as we build it, and reflex keeps up with our changing ideas on how to do that. Our first app store product will be a PWA, delivered with reflex.
+<h4> Reflex-Dom </h4> Reflex helps us build a system that needs to adapt to changes in data, requirements and platform. We’re learning how to build ChatWisely as we build it, and reflex keeps up with our changing ideas on how to do that. Our first app store product will be a PWA, delivered with reflex.
 
-Servant - Servant delivers the API, and requires us to separate definition from implementation. This helps us keep the backend from turning into a big ball of mud. We can auto-generate clients, which we currently use in unit testing. They even have a way to generate a reflex client, and we’ll be adding that in the near future.
+<h4> Servant </h4> Servant delivers the API, and requires us to separate definition from implementation. This helps us keep the backend from turning into a big ball of mud. We can auto-generate clients, which we currently use in unit testing. They even have a way to generate a reflex client, and we’ll be adding that in the near future.
 
-Yesod - We use Yesod for marketing tasks, which largely require static pages. Currently it handles our landing page and unsubscribe mechanism for our emails. The Yesod Widget is a monoid, and therefore composable, which makes structuring html simple. 
+<h4>Yesod</h4> We use Yesod for marketing tasks, which largely require static pages. Currently it handles our landing page and unsubscribe mechanism for our emails. The Yesod Widget is a monoid, and therefore composable, which makes structuring html simple. 
 
 
 <h2 align=center>Three Reasons Why People Should Use ChatWisely.</h2>
