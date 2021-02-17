@@ -41,5 +41,5 @@ Conference speakers will often want to build on the momentum gathered after a su
 ---
 We built ChatWisely as a response to the unpleasantness all too common on mainstream social networks. Depending on our membership for support creates the place we want to meet because ad revenue and data-mining motivates engagement, not conversations and connection. No one is fooled by what mainstream social networks call engagement because that looks to us like derailed conversations, confusing timelines we only have a shallow control over, and unsafe situations.
 
-Brian and I love the daily experience of building ChatWisely, the Haskell ecosystem brings joy to the experience of running our startup. You can support us on patreon and should come by and test the beta. We look forward to hearing from you about any ideas or questions you may have.
+Brian and I love the daily experience of building ChatWisely, the Haskell ecosystem brings joy to the experience of running our startup. You can support us on [patreon](https://www.patreon.com/chatwisely) and should come by and test the [beta](https://chatwisely.com/i/messages). We look forward to hearing from you about any ideas or questions you may have.
 
