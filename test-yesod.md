@@ -2,16 +2,16 @@ Three years ago, I met fellow Haskeller Brian Hurt while working with Obsidian S
 
 ChatWisely is a member-supported mini-blogging social network currently in open beta. We envision a place where people connect in a spirit of comradery. We see an elevated discourse and a way to show bullies the door by providing a platform to debate safely. Here’s how we’re doing it.
 
-<p align=center>Safety First</p>
+<p align=center>##Safety First</p>
 Brian and I built several mechanisms to filter out people looking for a fight or to harm others. First and foremost will be the monthly subscription fee of one dollar. We think that will discourage a large portion of toxic people. Another is a sharable mute list that we believe will help mitigate the rest. And finally, in the event of a serious Terms of Service violation, we ban payment methods rather than just accounts. 
 
-<p align=center>Mini-Blogging</p>
+<p align=center>##Mini-Blogging</p>
 The big idea here is that sometimes, a short post isn’t enough. Brian and I made a way to link that short post to a longer one. So the timeline looks something like Twitter’s, but with some posts that can expand to something more detailed. These can be connected to other people’s posts to create a continuity in conversation hard to come by on other platforms. So when another member’s post inspires you to write a longer one about your experience with the ghcjs ffi (for example), you can link your post to theirs.
 
-<p align=center>Ownership of Your Timeline</p>
+<p align=center>##Ownership of Your Timeline</p>
 Members can organize their timeline and choose to what extent they follow other people’s posts. The typical mainstream social network requires that when you follow someone you must follow everything they post, or nothing. Sure, there are filtered word lists in some cases. But none of it seems to work quite right. Instead, we have groups called caboodles that members can use to decide where other people’s posts fit, and how to share their own. So say someone likes their uncle’s cookie recipes but not his political posts. They can follow one but not the other.
 
-<p align=center>Geolocated Messaging</p>
+<p align=center>##Geolocated Messaging</p>
 One day this pandemic will be over and we’ll be there to meet that day. At that time, when a member’s movie caboodle wants to organize local screenings of the latest blockbuster from the House of Mouse they can make posts visible to people in their proximity. Perhaps you want to target local Haskellers to organize a meetup, or leave them a message that pops up when they’ve found the meeting place. Also, I think running a scavenger hunt with geolocated clues sounds like a hoot.
 
 <p align=center>How It’s Built</p>
