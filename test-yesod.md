@@ -32,7 +32,7 @@ Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell�
 
 <h4>We solve the tweet thread problem</h4>Brian and I find tweet threads hard to follow. Our mini-blog looks like twitter in the sense that you get a timeline of short posts. However if a post is the beginning of something more developed, that message can open up to access it.
 
-<h4>Keep the [RealWorld](pun intended) conversation going</h4>We have delayed the development of these features for obvious reasons. But one day we’ll be together again. By then we’ll have useful geo-location tools for conference attendees and speakers to continue the conversation.
+<h4>Keep the [RealWorld]("pun intended") conversation going</h4>We have delayed the development of these features for obvious reasons. But one day we’ll be together again. By then we’ll have useful geo-location tools for conference attendees and speakers to continue the conversation.
 
 What makes a weekend conference fun for me are the conversations in-between formal talks. I get all caught up in compelling conversations, and want to keep that going. We’ll have a way to do that, without having to know or remember anyone’s email address or phone number.
 
