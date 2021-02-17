@@ -37,7 +37,7 @@ Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell�
 What makes a weekend conference fun for me are the conversations in-between formal talks. I get all caught up in compelling conversations, and want to keep that going. We’ll have a way to do that, without having to know or remember anyone’s email address or phone number.
 
 Conference speakers will often want to build on the momentum gathered after a successful talk. Brian and I think Twitter hashtags are the terrible but often only way to do this. We’ll have a way to use proximity and common interests to help build that momentum and keep everyone engaged.
-
+---
 We built ChatWisely as a response to the unpleasantness all too common on mainstream social networks. Depending on our membership for support creates the place we want to meet because ad revenue and data-mining motivates engagement, not conversations and connection. No one is fooled by what mainstream social networks call engagement because that looks to us like derailed conversations, confusing timelines we only have a shallow control over, and unsafe situations.
 
 Brian and I love the daily experience of building ChatWisely, the Haskell ecosystem brings joy to the experience of running our startup. You can support us on patreon and should come by and test the beta. We look forward to hearing from you about any ideas or questions you may have.
