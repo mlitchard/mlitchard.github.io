@@ -1,7 +1,3 @@
-<p align=center>Safety First</p>
-
-
-
 Three years ago, I met fellow Haskeller Brian Hurt while working with Obsidian Systems on a Reflex project. Not long after, he started telling me his ideas about how to fix social media. These ideas intrigued me, one thing led to another, and we began building ChatWisely. We thought other Haskellers might like to hear about what we’re doing and how we use Haskell to do it.
 
 ChatWisely is a member-supported mini-blogging social network currently in open beta. We envision a place where people connect in a spirit of comradery. We see an elevated discourse and a way to show bullies the door by providing a platform to debate safely. Here’s how we’re doing it.
