@@ -5,16 +5,16 @@ ChatWisely is a member-supported mini-blogging social network currently in open 
 <h2 align=center>Safety First</h2>
 Brian and I built several mechanisms to filter out people looking for a fight or to harm others. First and foremost will be the monthly subscription fee of one dollar. We think that will discourage a large portion of toxic people. Another is a sharable mute list that we believe will help mitigate the rest. And finally, in the event of a serious Terms of Service violation, we ban payment methods rather than just accounts. 
 
-<p align=center>Mini-Blogging</p>
+<h2 align=center>Mini-Blogging</h2>
 The big idea here is that sometimes, a short post isn’t enough. Brian and I made a way to link that short post to a longer one. So the timeline looks something like Twitter’s, but with some posts that can expand to something more detailed. These can be connected to other people’s posts to create a continuity in conversation hard to come by on other platforms. So when another member’s post inspires you to write a longer one about your experience with the ghcjs ffi (for example), you can link your post to theirs.
 
-<p align=center>Ownership of Your Timeline</p>
+<h2 align=center>Ownership of Your Timeline</h2>
 Members can organize their timeline and choose to what extent they follow other people’s posts. The typical mainstream social network requires that when you follow someone you must follow everything they post, or nothing. Sure, there are filtered word lists in some cases. But none of it seems to work quite right. Instead, we have groups called caboodles that members can use to decide where other people’s posts fit, and how to share their own. So say someone likes their uncle’s cookie recipes but not his political posts. They can follow one but not the other.
 
-<p align=center>Geolocated Messaging</p>
+<h2 align=center>Geolocated Messaging</h2>
 One day this pandemic will be over and we’ll be there to meet that day. At that time, when a member’s movie caboodle wants to organize local screenings of the latest blockbuster from the House of Mouse they can make posts visible to people in their proximity. Perhaps you want to target local Haskellers to organize a meetup, or leave them a message that pops up when they’ve found the meeting place. Also, I think running a scavenger hunt with geolocated clues sounds like a hoot.
 
-<p align=center>How It’s Built</p>
+<h2 align=center>How It’s Built</h2>
 Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell’s type system reduces errors and cognitive load. GHC is our pair programming partner that tightens the delivery cycle and lets us learn how to build ChatWisely while we’re building it. Refactoring is a breeze, and unit testing is constrained to the I/O edges of the system, which means we spend less time on that and more time building the product. Here’s the principal tools we rely on to get the job done.
 
 Ghcjs - The fact is we all hate javascript. The problem is, we can’t build web apps without it. Ghcjs lets us deal with the realities of building a product that uses a web browser for a client. The FFI lets us wrap our hand-written javascript in Haskell which helps to keep that part of the codebase pretty small.. We especially love what is built on top of that, Reflex-Dom.
@@ -26,7 +26,7 @@ Servant - Servant delivers the API, and requires us to separate definition from 
 Yesod - We use Yesod for marketing tasks, which largely require static pages. Currently it handles our landing page and unsubscribe mechanism for our emails. The Yesod Widget is a monoid, and therefore composable, which makes structuring html simple. 
 
 
-<p align=center>Three Reasons Why People Should Use ChatWisely.</p>
+<h2 align=center>Three Reasons Why People Should Use ChatWisely.</h2>
 We are member supported - We won’t have ads, which means we have no need to manipulate people’s timelines in order to serve those ads. Their timeline should be about conversations of interest.
 
 We solve the tweet thread problem - Brian and I find tweet threads hard to follow. Our mini-blog looks like twitter in the sense that you get a timeline of short posts. However if a post is the beginning of something more developed, that message can open up to access it.
