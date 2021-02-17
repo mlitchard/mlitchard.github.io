@@ -16,8 +16,7 @@ Members can organize their timeline and choose to what extent they follow other 
 One day this pandemic will be over and we’ll be there to meet that day. At that time, when a member’s movie caboodle wants to organize local screenings of the latest blockbuster from the House of Mouse they can make posts visible to people in their proximity. Perhaps you want to target local Haskellers to organize a meetup, or leave them a message that pops up when they’ve found the meeting place. Also, I think running a scavenger hunt with geolocated clues sounds like a hoot.
 
 <h2 align=center>How It’s Built</h2>
-Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell’s type system reduces errors and cognitive load. GHC is our pair programming partner that tightens the delivery cycle and lets us learn how to build ChatWisely while we’re building it. Refactoring is a breeze, and unit testing is constrained to the I/O edges of the system, which means we spend less time on that and more time building the product. Here’s the principal tools we rely on to get the job done.
-
+Brian and I rely heavily on the Haskell ecosystem to build ChatWisely. Haskell’s type system reduces errors and cognitive load. GHC is our pair programming partner that tightens the delivery cycle and lets us learn how to build ChatWisely while we’re building it. Refactoring is a breeze, and unit testing is constrained to the I/O edges of the system, which means we spend less time on that and more time building the product. Here’s the principal tools we rely on to get the job done.  
 
 Ghcjs - The fact is we all hate javascript. The problem is, we can’t build web apps without it. Ghcjs lets us deal with the realities of building a product that uses a web browser for a client. The FFI lets us wrap our hand-written javascript in Haskell which helps to keep that part of the codebase pretty small.. We especially love what is built on top of that, Reflex-Dom.
   
